@@ -28,6 +28,7 @@
     "format": ".pb",
     "io": {
       "input": {
+        "description": "xxxxxx",
         "format": ["image/png", "image/jpg", "image/jpeg"],
         "dim_limits": [
           {
