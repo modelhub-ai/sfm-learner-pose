@@ -24,6 +24,7 @@ This repository hosts the contributor source files for the sfm-learner-pose mode
 | | |
 |-|-|
 | description | The model consists of two networks trained together, first one being single-view depth network and the second one pose-reliability network. Both of them have decoder-encoder design, a stack of convolutional networks. | 
+| provenance | contributed by author |
 | architecture | Convolutional Neural Network(CNN), Decoder/Encoder | 
 | learning_type | Unsupervised learning | 
 | format | .pb | 
