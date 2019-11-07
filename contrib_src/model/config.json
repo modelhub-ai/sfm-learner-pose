@@ -27,7 +27,7 @@
     "format": ".pb",
     "io": {
       "input": {
-        "description": "xxxxxx",
+        "description": "The SFM-Learner input is an image that consists 3 consecutive frames in which the pose estimation will be applied on. Hence, a video can be fed to model by extracting the frames and patching each 3 of them into an image through sliding the frames for each image.",
         "format": ["image/png", "image/jpg", "image/jpeg"],
         "dim_limits": [
           {
@@ -44,8 +44,8 @@
       "output": [
         {
           "name": "Pose outputs",
-          "type": "mask_image",
-          "description": "xxxxx"
+          "type": "vector",
+          "description": "The output consists of the estimated pose parameters: translation_x, translation_y, translation_z and the rotation values in a quaternion format."
         }
       ]
     }
